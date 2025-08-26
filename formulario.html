@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctanos - Instituto Franklin Delano Roosevelt</title>
+  <link rel="stylesheet" href="fdr.css">
+  <link rel="icon" href="img/fdrlog1-removebg-preview.png" type="image/png">
+</head>
+<body>
+  <!-- Botón Inicio centrado y separado del formulario -->
+  <div style="display: flex; justify-content: center; margin-top: 40px; margin-bottom: 24px;">
+    <a href="fdr.html" class="contacto-btn">Inicio</a>
+  </div>
+  <section id="contacto" class="fade-in" style="max-width: 500px; margin: 0 auto; background: #fffbe7; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); padding: 32px;">
+    <h2 style="text-align: center; color: #FFD600;">Contáctanos</h2>
+    <form action="https://formsubmit.co/jersonmerino8@gmail.com" method="POST" style="display: flex; flex-direction: column; gap: 18px;">
+      <input type="text" name="Nombre" placeholder="Tu nombre" required style="padding: 12px; border-radius: 6px; border: 1px solid #FFD600;">
+      <input type="text" name="Dirigido a" placeholder="¿A quién va dirigido?" required style="padding: 12px; border-radius: 6px; border: 1px solid #FFD600;">
+      <textarea name="Mensaje" placeholder="Escribe tu queja, consulta o mensaje aquí..." rows="5" required style="padding: 12px; border-radius: 6px; border: 1px solid #FFD600; resize: vertical;"></textarea>
+      <button type="submit" class="enviar-btn">Enviar mensaje</button>
+    </form>
+  </section>
+</body>
+</html>
